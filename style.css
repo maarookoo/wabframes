@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color:#000;
+    text-decoration: none;
+}
+
+nav {
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background: #ffffff;
+    height: 64px;
+}
+
+nav h2 {
+    color: #777;
+    font-size: 34px;
+    padding-left:40px;
+    padding-top: 10px;
+}
+
+nav ul {
+    cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+    margin-left: 24%;
+    margin-right: 16%;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+nav ul li:hover{
+    opacity: 0.6;
+}
+
+.but,.but2 {  
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    margin-top: 12px;
+}
+.but{ 
+    color: rgb(51, 102, 213); 
+    border: rgb(51, 102, 213) solid 2px;
+    background-color: #ffffff;
+    width: 100px; 
+}
+.but2 { 
+    margin-left: 15px;
+    background: rgb(51, 102, 213);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.but:hover {
+    opacity: 0.8;
+    background: #f6f6f6;
+}
+.but2:hover {
+    opacity: 0.8;
+}
+
+header {
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+}
+
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    padding-top: 15%;
+    padding-left: 5%;
+    width: 45%;
+}
+
+.p {
+    padding-top: 45px;
+    font-size: 21px;
+    color: #5e5e5e;
+    display: inline-block;
+}
+
+.butAction1, .butAction2 {
+    cursor: pointer;
+    font-size: 20px;
+    height: 55px;
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 240px;
+}
+.butAction1 {
+    margin-left: 15px;
+    background: rgb(51, 102, 213);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+}
+.butAction2 {
+    color: rgb(51, 102, 213);
+    border: rgb(51, 102, 213) solid 2px;
+    background-color: #ffffff;
+    margin-left: 15px;
+}
+
+.Team {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Block{
+    display: inline-block;
+}
+
+.imges {
+    width: 370px;
+    height: 360px;
+    padding-left: 7px;
+}
+.seiy {
+    width: 21px;
+    padding-left: 12px;
+}
+
+
+
+.nameHelen {
+    font-size: 23px;
+    padding-left: 130px;
+}
+.profHelen {
+    font-size: 20px;
+    color: #777;
+    padding-left: 140px ;
+}
+.massangHelen {
+    padding-left: 107px;
+    padding-top: 15px;
+}
+.contactHelen {
+    font-size: 19px;
+    color: rgb(51, 102, 213);
+    border: rgb(51, 102, 213) solid 2px;
+    background-color: #ffffff;
+    width: 180px;
+    height: 46px;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+
+
+
+.nameDanis {
+    font-size: 23px;
+    padding-left: 125px ;
+}
+.profDanis {
+    font-size: 20px;
+    color: #777;
+    padding-left: 77px ;
+}
+.massangDanis {
+    padding-left: 110px;
+    padding-top: 15px;
+}
+.contactDanis {
+    font-size: 19px;
+    color: rgb(51, 102, 213);
+    border: rgb(51, 102, 213) solid 2px;
+    background-color: #ffffff;
+    width: 180px;
+    height: 46px;
+    margin-top: 5px;
+    margin-left: 96px;
+}
+
+
+
+.nameAlbert {
+    font-size: 23px;
+    padding-left: 125px ;
+}
+.profAlbert {
+    font-size: 20px;
+    color: #777;
+    padding-left: 77px ;
+}
+.massangAlbert {
+    padding-left: 110px;
+    padding-top: 15px;
+}
+.contactAlbert {
+    font-size: 19px;
+    color: rgb(51, 102, 213);
+    border: rgb(51, 102, 213) solid 2px;
+    background-color: #ffffff;
+    width: 180px;
+    height: 46px;
+    margin-top: 5px;
+    margin-left: 96px;
+}
+
+
+.nameSvetlana {
+    font-size: 23px;
+    padding-left: 110px ;
+}
+.profSvetlana {
+    font-size: 20px;
+    color: #777;
+    padding-left: 105px ;
+}
+.massangSvetlana {
+    padding-left: 113px;
+    padding-top: 15px;
+}
+.contactSvetlana {
+    font-size: 19px;
+    color: rgb(51, 102, 213);
+    border: rgb(51, 102, 213) solid 2px;
+    background-color: #ffffff;
+    width: 180px;
+    height: 46px;
+    margin-top: 5px;
+    margin-left: 103px;
+    margin-bottom: 70px;
+}
+
+.company {
+    border-top: 3px solid #e5e5e5;
+    margin-bottom: 70px;
+}
+
+.ultra {
+    width: 90px;
+}
+.mega {
+    width: 190px;
+}
+.hyper, .ultraWinner {
+    width: 165px;
+}
+.winer {
+    width: 110px;
+}
+.ultra, .mega, .hyper, .winer, .ultraWinner {
+    margin-left: 140px; 
+    margin-top: 70px;
+}
+
+.Download {
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+}
+
+.App {
+    width: 40%;
+    margin-left: 45%;
+    padding-top: 10%;
+}
+.App h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+}
+
+.apps img {
+    margin-top: 13%;
+    width: 170px;
+    border-radius: 7px;
+}
+.google{
+    margin-left: 20px;
+}
+
+.foot {
+    background-color: #6a6e75;
+    height: 600px;
+}
+
+.headerFooter {
+    display: flex;
+    margin-bottom: 3%;
+}
+.headerFooter h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: rgba(206, 206, 206, 0.689);
+    padding: 36px 50px;
+    padding-bottom: 0;
+    padding-right: 42%;
+    padding-left: 5%;
+    opacity: 0.8;
+}
+
+.formIcon {
+    display:flex;
+}
+
+.icon{
+    margin-top: 48px;
+    height: 44px;
+}
+
+input {
+    border: none;
+    width: 305px;
+    height: 44px;
+    margin-top: 48px;
+    padding-left: 10px;
+} input:active, :hover, :focus { outline: 0; outline-offset: 0; } /* ВАААУ ╰(*°▽°*)╯*/
+
+input::placeholder {
+    font-size: 15px;
+    
+}
+
+.submit {
+    cursor: pointer;
+    background: rgb(51, 102, 213);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 48px;
+    width: 143px;
+    height: 45px;
+    padding-left: 0;
+}
+.submit:hover {
+    opacity: 0.8;
+}
+
+.mainFooter {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: rgba(191, 191, 191, 0.354) solid 3px;
+    border-bottom: rgba(191, 191, 191, 0.354) solid 3px;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+.mainFooter ul {
+    list-style: none;
+    padding-right: 17%;
+}
+.mainFooter ul li  {
+    color: #dfdddd;
+    padding-bottom: 8px;
+}
+.mainFooter ul li h3 {
+    padding-bottom: 14%;
+    color: #dfdddd;
+}
+.social img {
+    width: 30px;
+}
+.appFour {
+    width: 150px;
+    border-radius: 8px;
+}
+.coluwnFour {
+    padding-bottom: 8%;
+    color: #dfdddd;
+}
+.coluwnFour1 {
+    padding-bottom: 4%;
+    color: #dfdddd;
+}
+.AppIcon {
+    padding-bottom: 7%;
+}
+
